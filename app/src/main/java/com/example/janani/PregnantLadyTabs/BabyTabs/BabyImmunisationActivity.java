@@ -1,12 +1,25 @@
 package com.example.janani.PregnantLadyTabs.BabyTabs;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.janani.PregnantLadyHome;
+import com.example.janani.PregnantLadyTabs.BabyActivity;
+import com.example.janani.PregnantLadyTabs.TODO.FirstTrimesterActivity;
 import com.example.janani.R;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class BabyImmunisationActivity extends AppCompatActivity {
 CheckBox c,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14;
+    Button b;
+    DatabaseReference rootRef,demoRef;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
@@ -25,6 +38,10 @@ CheckBox c,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14;
         c12=findViewById (R.id.checkBox55);
         c13=findViewById (R.id.checkBox56);
         c14=findViewById (R.id.checkBox57);
+        b=findViewById (R.id.button6);
+        rootRef = FirebaseDatabase.getInstance().getReference();
+        //database reference pointing to demo node
+        demoRef = rootRef.child("Immunisation");
 
         c.setTag("one");
         String str = (String) c.getTag();
@@ -110,6 +127,14 @@ CheckBox c,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14;
         if(str14.equals("zero") || str14.equals("one") ){
             c.setChecked(true);
         }
-
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Saved Immunisation details of the baby", Toast.LENGTH_SHORT).show();
+        Intent interestIntent = new Intent(BabyImmunisationActivity.this, BabyActivity.class);
+        interestIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(interestIntent);
     }
+        });
+        }
 }

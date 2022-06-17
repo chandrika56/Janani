@@ -21,7 +21,7 @@ ImageButton i,i2;
         i.setOnClickListener (new View.OnClickListener ( ) {
             @Override
             public void onClick(View v) {
-                String phone = "9742817456";
+                String phone = "123456789";
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
                 startActivity(intent);
             }
@@ -29,7 +29,7 @@ ImageButton i,i2;
         i2.setOnClickListener (new View.OnClickListener ( ) {
             @Override
             public void onClick(View v) {
-                String phone = "9742817456";
+                String phone = "123456789";
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
                 startActivity(intent);
             }

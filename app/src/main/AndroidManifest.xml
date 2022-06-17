@@ -31,6 +31,18 @@
             android:exported="false"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".PregnantLadyTabs.TODO.FirstTrimesterActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.TODO.SecondTrimesterActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.TODO.ThirdTrimesterActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".PregnantLadyTabs.DangerActivity"
             android:exported="false"
             android:theme="@style/AppTheme.NoActionBar" />

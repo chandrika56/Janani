@@ -10,12 +10,12 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="67dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="17dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="125dp"
         android:text="@string/call_any_of_two_numbers_if_you_have_any_problem"
         android:textSize="20dp" />
 
@@ -24,32 +24,38 @@
         android:layout_width="79dp"
         android:layout_height="61dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="140dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="221dp"
         android:background="@drawable/blue_gradient"
-        app:srcCompat="@drawable/ic_phone_black_24dp"
-        android:layout_alignParentLeft="true" />
+        app:srcCompat="@drawable/ic_phone_in_talk_black_24dp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="79dp"
         android:layout_height="61dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerVertical="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginBottom="334dp"
         android:background="@drawable/green_gradient"
-        app:srcCompat="@drawable/ic_phone_black_24dp"
-        android:layout_alignParentLeft="true" />
+        app:srcCompat="@drawable/ic_phone_in_talk_black_24dp" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="128dp"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="141dp"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="160dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="233dp"
         android:text="@string/click_here"
         android:textSize="20dp"
         tools:ignore="HardcodedText" />
@@ -58,9 +64,22 @@
         android:id="@+id/textView4"
         android:layout_width="129dp"
         android:layout_height="32dp"
-        android:layout_alignLeft="@+id/textView3"
         android:layout_alignStart="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
         android:layout_centerVertical="true"
         android:text="@string/click_here"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="622dp"
+        android:background="@drawable/orange_gradient"
+        android:text="    HelpLine Contacts    "
+        android:textColor="@color/black"
         android:textSize="20dp" />
 </RelativeLayout>

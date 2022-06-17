@@ -6,48 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".PregnantLadyTabs.TODO.FirstTrimesterActivity">
 
-
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox7"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/checkBox7"
-        android:layout_marginTop="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="566dp"
         android:text="@string/registered_with_health_center"
-        android:textSize="20dp"
-        android:layout_alignLeft="@+id/checkBox7" />
+        android:textSize="20dp" />
 
     <CheckBox
         android:id="@+id/checkBox7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView14"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="-100dp"
-        android:layout_marginStart="72dp"
-        android:text="@string/yes"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="72dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="517dp"
+        android:text="@string/yes" />
 
     <CheckBox
         android:id="@+id/checkBox8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/checkBox7"
-        android:layout_marginEnd="73dp"
-        android:text="@string/no"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="73dp" />
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginRight="200dp"
+        android:text="@string/no" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="127dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="202dp"
         android:text="@string/visited_your_doctor"
         android:textSize="20dp" />
 
@@ -55,11 +62,15 @@
         android:id="@+id/checkBox9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView13"
-        android:layout_marginTop="182dp"
-        android:text="@string/yes"
-        android:layout_alignLeft="@+id/textView13" />
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginBottom="400dp"
+        android:text="@string/yes" />
 
     <CheckBox
         android:id="@+id/checkBox10"
@@ -74,7 +85,11 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="332dp"
         android:text="@string/monthly_visit_to_anm"
         android:textSize="20dp" />
 
@@ -83,27 +98,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
         android:layout_alignTop="@+id/checkBox12"
-        android:text="@string/yes"
-        android:layout_alignLeft="@+id/textView13" />
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/yes" />
 
     <CheckBox
         android:id="@+id/checkBox12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/checkBox8"
-        android:layout_marginBottom="193dp"
-        android:text="@string/no"
-        android:layout_alignLeft="@+id/checkBox8" />
+        android:layout_alignLeft="@+id/checkBox8"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginBottom="281dp"
+        android:text="@string/no" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="127dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="217dp"
         android:text="@string/took_your_folic_acid_tablets"
         android:textSize="20dp" />
 
@@ -111,11 +132,11 @@
         android:id="@+id/checkBox13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView13"
-        android:layout_marginBottom="61dp"
-        android:text="@string/yes"
-        android:layout_alignLeft="@+id/textView13" />
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="162dp"
+        android:text="@string/yes" />
 
     <CheckBox
         android:id="@+id/checkBox14"
@@ -130,9 +151,23 @@
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/checkBox13"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-61dp"
-        android:background="@drawable/green_gradient"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="177dp"
+        android:background="@drawable/blue_gradient"
         android:text="@string/save" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="656dp"
+        android:background="@drawable/blue_gradient"
+        android:text=" First Trimester Checkup "
+        android:textColor="@color/black"
+        android:textSize="25dp" />
 </RelativeLayout>

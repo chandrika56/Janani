@@ -33,7 +33,7 @@ public class BabyCalendarActivity extends AppCompatActivity {
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
                 // display the selected date by using a toast
-                Toast.makeText(getApplicationContext(), "Visit Doctor", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Saved Doctor Visit Date", Toast.LENGTH_LONG).show();
             }
         });
     }

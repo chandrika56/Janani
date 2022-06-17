@@ -10,9 +10,10 @@
         android:id="@+id/editText6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="217dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="297dp"
         android:ems="10"
         android:hint="@string/enter_baby_name"
         android:inputType="textPersonName" />
@@ -21,9 +22,10 @@
         android:id="@+id/editText7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="153dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="205dp"
         android:ems="10"
         android:hint="@string/enter_baby_weight"
         android:inputType="textPersonName" />
@@ -32,9 +34,10 @@
         android:id="@+id/editText8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="88dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="108dp"
         android:ems="10"
         android:hint="@string/enter_baby_date_of_birth"
         android:inputType="textPersonName" />
@@ -54,27 +57,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/editText8"
-        android:layout_toEndOf="@+id/editText6"
-        app:srcCompat="@drawable/ic_filter_frames_black_24dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/editText6"
         android:contentDescription="TODO"
-        android:layout_toRightOf="@+id/editText6" />
+        app:srcCompat="@drawable/ic_filter_frames_black_24dp" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
-        android:layout_height="217dp"
+        android:layout_height="257dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        app:srcCompat="@drawable/cute_girl"
-        android:layout_alignParentLeft="true" />
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-8dp"
+        app:srcCompat="@drawable/cute_girl" />
 
     <Button
         android:id="@+id/button15"
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="232dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="109dp"
         android:background="@drawable/blue_gradient"
         android:text="@string/baby_information" />
 
