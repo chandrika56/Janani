@@ -32,7 +32,7 @@ public class DOC_ANCHighRiskActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anm_anchigh_risk);
+        setContentView(R.layout.activity_doc_anchigh_risk);
 
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Risk").child("HR Pregnant Women");

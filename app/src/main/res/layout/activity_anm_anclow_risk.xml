@@ -22,6 +22,6 @@
 
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        app:srcCompat="@android:drawable/ic_menu_camera" />
+        app:srcCompat="@drawable/ic_baseline_chat_24" />
 
 </RelativeLayout>

@@ -22,7 +22,7 @@ public class DOC_HRWomanActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anm_hrwoman);
+        setContentView(R.layout.activity_doc_hrwoman);
 
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Risk").child("HR Pregnant Women");

@@ -30,7 +30,7 @@ public class DOC_ReferredCasesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
-        setContentView (R.layout.activity_anm_vaccination);
+        setContentView (R.layout.activity_doc_referredcase);
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Baby details");
         //com=rootRef.child ("accepted");

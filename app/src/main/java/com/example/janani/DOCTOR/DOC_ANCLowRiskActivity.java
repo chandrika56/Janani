@@ -31,7 +31,7 @@ public class DOC_ANCLowRiskActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anm_anclow_risk);
+        setContentView(R.layout.activity_doc_anclow_risk);
 
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Risk").child("LR Pregnant Women");

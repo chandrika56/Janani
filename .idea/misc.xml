@@ -25,12 +25,15 @@
         <entry key="app/src/main/res/layout/activity_anm_catalogue.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_anm_hrwoman.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_anm_login.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_anm_nav_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_anm_nav_drawer.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_anm_pnchigh_risk.xml" value="0.13768115942028986" />
         <entry key="app/src/main/res/layout/activity_anm_pnclow_risk.xml" value="0.13768115942028986" />
         <entry key="app/src/main/res/layout/activity_anm_vaccination.xml" value="0.13768115942028986" />
         <entry key="app/src/main/res/layout/activity_asha_anchigh_risk.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_asha_family_planning.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_asha_login.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_asha_nav_drawer.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_asha_pnc_high_risk.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_baby.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_baby_calendar.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_baby_danger.xml" value="0.15070921985815602" />
@@ -40,6 +43,16 @@
         <entry key="app/src/main/res/layout/activity_baby_must_knows.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_danger.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_doc_anchigh_risk.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_doc_anclow_risk.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_doc_catalogue.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_doc_hrwoman.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_doc_login.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_doc_nav_drawer.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_doc_pnchigh_risk.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_doc_pnclow_risk.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_doc_referredcase.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_doc_vaccination.xml" value="0.14351851851851852" />
         <entry key="app/src/main/res/layout/activity_family_planning.xml" value="0.11388888888888889" />
         <entry key="app/src/main/res/layout/activity_first_trimester.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_help_line.xml" value="0.25" />
@@ -72,6 +85,9 @@
         <entry key="app/src/main/res/layout/content_nav_drawer.xml" value="0.11388888888888889" />
         <entry key="app/src/main/res/layout/content_pregnant_lady.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_pregnant_lady_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/doc_app_bar_nav_drawer.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/doc_content_nav_drawer.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/doc_nav_header_nav_drawer.xml" value="0.14351851851851852" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.15307971014492755" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15307971014492755" />
         <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.15307971014492755" />

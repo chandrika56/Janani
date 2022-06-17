@@ -11,6 +11,6 @@ public class DOC_CatalogueActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anm_catalogue);
+        setContentView(R.layout.activity_doc_catalogue);
     }
 }

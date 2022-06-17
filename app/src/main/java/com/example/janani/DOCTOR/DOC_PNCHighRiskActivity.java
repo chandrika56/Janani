@@ -32,7 +32,7 @@ public class DOC_PNCHighRiskActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anm_pnchigh_risk);
+        setContentView(R.layout.activity_doc_pnchigh_risk);
 
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Risk").child("HR Pregnant Women");

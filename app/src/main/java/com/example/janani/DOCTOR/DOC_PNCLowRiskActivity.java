@@ -30,7 +30,7 @@ public class DOC_PNCLowRiskActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anm_pnclow_risk);
+        setContentView(R.layout.activity_doc_pnclow_risk);
 
         rootRef = FirebaseDatabase.getInstance().getReference();
         demoRef = rootRef.child("Risk").child("LR Pregnant Women");
