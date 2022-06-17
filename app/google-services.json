@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "529878204866",
+    "firebase_url": "https://maternityapp-d2ab8.firebaseio.com",
+    "project_id": "maternityapp-d2ab8",
+    "storage_bucket": "maternityapp-d2ab8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529878204866:android:ba092818ce45048a",
+        "android_client_info": {
+          "package_name": "com.example.janani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529878204866-c37o1v1i7saq7fmaek1b56cf4sfsi2jq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.janani",
+            "certificate_hash": "715c4a7e8145b079dbfa2e2eaf1c9465da6249ae"
+          }
+        },
+        {
+          "client_id": "529878204866-dvdr0it4fa9fi05do1iv9uiqmthrkmqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgVpiPDDrSy4GXKAzSStaV6FRNWAq2Lic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529878204866-dvdr0it4fa9fi05do1iv9uiqmthrkmqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

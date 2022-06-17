@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/blue_gradient.xml" value="0.121" />
+        <entry key="app/src/main/res/drawable/ic_baseline_speech_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_movie_filter_black_24dp.xml" value="0.13" />
+        <entry key="app/src/main/res/drawable/ic_person_black_24dp.xml" value="0.13" />
+        <entry key="app/src/main/res/drawable/ic_phone_black_24dp.xml" value="0.13" />
+        <entry key="app/src/main/res/drawable/ic_phone_in_talk_black_24dp.xml" value="0.13" />
+        <entry key="app/src/main/res/drawable/ic_toc_black_24dp.xml" value="0.13" />
+        <entry key="app/src/main/res/drawable/ic_warning_black_24dp.xml" value="0.13" />
+        <entry key="app/src/main/res/drawable/mybutton.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/mybutton2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/mybutton3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/mybutton4.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/speak.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_anchigh_risk.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_anm_anchigh_risk.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_anm_anclow_risk.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_anm_catalogue.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_anm_hrwoman.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_anm_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_anm_nav_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_anm_pnchigh_risk.xml" value="0.13768115942028986" />
+        <entry key="app/src/main/res/layout/activity_anm_pnclow_risk.xml" value="0.13768115942028986" />
+        <entry key="app/src/main/res/layout/activity_anm_vaccination.xml" value="0.13768115942028986" />
+        <entry key="app/src/main/res/layout/activity_asha_anchigh_risk.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_asha_nav_drawer.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_baby.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_baby_calendar.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_baby_danger.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_baby_helpline.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_baby_immunisation.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_baby_information.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_baby_must_knows.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_calendar.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_danger.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_family_planning.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_first_trimester.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_help_line.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu_personal_details.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/activity_menu_risk_assessment.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/activity_menu_todolist.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/activity_must_know.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_personal_details.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_pnchigh_risk.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_pregnant_lady_home.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_risk_assessment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_roles.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_second_trimester.xml" value="0.12314814814814815" />
+        <entry key="app/src/main/res/layout/activity_sectri.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_third_trimester.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_to_do.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_vaccination.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/activity_videos.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/anm_app_bar_nav_drawer.xml" value="0.13768115942028986" />
+        <entry key="app/src/main/res/layout/anm_content_nav_drawer.xml" value="0.13768115942028986" />
+        <entry key="app/src/main/res/layout/anm_nav_header_nav_drawer.xml" value="0.13768115942028986" />
+        <entry key="app/src/main/res/layout/app_bar_baby.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_bar_nav_drawer.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/app_bar_pregnant_lady.xml" value="0.13768115942028986" />
+        <entry key="app/src/main/res/layout/app_bar_pregnant_lady_home.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/content_baby.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/content_nav_drawer.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/content_pregnant_lady.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/content_pregnant_lady_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/nav_header_asha_nav_drawer.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/nav_header_baby.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/nav_header_nav_drawer.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/layout/nav_header_pregnant_lady.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/nav_header_pregnant_lady_home.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/menu/activity_anm_nav_drawer_drawer.xml" value="0.335" />
+        <entry key="app/src/main/res/menu/activity_baby_drawer.xml" value="0.335" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/activity_nav_drawer_drawer.xml" value="0.1673469387755102" />
+        <entry key="app/src/main/res/menu/activity_pl_drawer.xml" value="0.1306122448979592" />
+        <entry key="app/src/main/res/menu/activity_pregnant_lady_drawer.xml" value="0.24871794871794872" />
+        <entry key="app/src/main/res/menu/anm_nav_drawer.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/menu/baby.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/nav_drawer.xml" value="0.11388888888888889" />
+        <entry key="app/src/main/res/menu/pregnant_lady.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/pregnant_lady_home.xml" value="0.2484375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

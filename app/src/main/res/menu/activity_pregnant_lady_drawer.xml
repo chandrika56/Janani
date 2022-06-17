@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_personal_details"
+            android:icon="@drawable/ic_pl_person_details_24dp"
+            android:title="@string/menu_personal_details" />
+        <item
+            android:id="@+id/menu_risk_assessment"
+            android:icon="@drawable/ic_warning_black_24dp"
+            android:title="@string/menu_risk_assessment" />
+        <item
+            android:id="@+id/menu_todolist"
+            android:icon="@drawable/ic_toc_black_24dp"
+            android:title="@string/menu_todolist" />
+        <item
+            android:id="@+id/menu_danger"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="@string/menu_danger" />
+        <item
+            android:id="@+id/menu_must_know"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="@string/menu_must_know" />
+        <item
+            android:id="@+id/menu_baby"
+            android:icon="@drawable/ic_child_care_black_24dp"
+            android:title="@string/menu_baby" />
+        <item
+            android:id="@+id/menu_helpline"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="@string/menu_helpline" />
+        <item
+            android:id="@+id/menu_calender"
+            android:icon="@drawable/ic_filter_frames_black_24dp"
+            android:title="@string/menu_calender" />
+        <item
+            android:id="@+id/menu_video"
+            android:icon="@drawable/ic_movie_filter_black_24dp"
+            android:title="@string/menu_video" />
+
+    </group>
+</menu>

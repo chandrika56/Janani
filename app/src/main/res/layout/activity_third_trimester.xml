@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PregnantLadyTabs.TODO.ThirdTrimesterActivity">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/_7th_month"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp"
+        android:text="@string/visit_your_doctor"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="129dp"
+        android:text="@string/anm_visit"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView29"
+        android:layout_alignParentEnd="true"
+        android:text="@string/no"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView29"
+        android:layout_toStartOf="@+id/checkBox31"
+        android:text="@string/yes"
+        android:layout_toLeftOf="@+id/checkBox31" />
+
+    <CheckBox
+        android:id="@+id/checkBox33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView30"
+        android:layout_toStartOf="@+id/checkBox31"
+        android:text="@string/yes"
+        android:layout_toLeftOf="@+id/checkBox31" />
+
+    <CheckBox
+        android:id="@+id/checkBox34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView30"
+        android:layout_alignParentEnd="true"
+        android:text="@string/no"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="196dp"
+        android:text="@string/_8th_month"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="@string/anm_visit"
+        android:textSize="20dp"
+
+        android:layout_alignParentLeft="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/no"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/checkBox31"
+        android:text="@string/yes"
+        android:layout_toLeftOf="@+id/checkBox31" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="196dp"
+        android:text="@string/_9th_month"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="144dp"
+        android:text="@string/visit_your_doctor"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_alignParentEnd="true"
+        android:text="@string/no"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_toStartOf="@+id/checkBox31"
+        android:text="@string/yes"
+        android:layout_toLeftOf="@+id/checkBox31" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="101dp"
+        android:text="@string/_2_days_before_edd_get_admitted"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView35"
+        android:layout_alignParentEnd="true"
+        android:text="@string/no"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:id="@+id/checkBox40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox39"
+        android:layout_toStartOf="@+id/checkBox31"
+        android:text="@string/yes"
+        android:layout_toLeftOf="@+id/checkBox31" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/orange_gradient"
+        android:text="@string/save" />
+</RelativeLayout>

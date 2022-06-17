@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.janani">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Janani"
+        tools:targetApi="31">
+        <activity
+            android:name=".PregnantLadyHome"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.PersonalDetails"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.RiskAssessment"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity
+            android:name=".PregnantLadyTabs.ToDoActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.DangerActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.MustKnowActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.BabyActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.HelpLineActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.CalendarActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.VideosActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+<!--        Baby Tab Pages-->
+        <activity
+            android:name=".PregnantLadyTabs.BabyTabs.BabyInformationActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.BabyTabs.BabyImmunisationActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.BabyTabs.BabyMustKnowsActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.BabyTabs.BabyDangerActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.BabyTabs.BabyHelpLineActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PregnantLadyTabs.BabyTabs.BabyCalendarActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+<!--        ASHA Tab Pages-->
+        <activity
+            android:name=".ASHA.ASHA_ANCHighRiskActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ASHA.ASHA_FamilyPlanningActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ASHA.ASHA_LoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ASHA.ASHA_NavDrawerActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ASHA.ASHA_PNCHighRiskActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ASHA.ASHA_VaccinationActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+<!--        ANM Tab Pages-->
+        <activity
+            android:name=".ANM.ANM_ANCHighRiskActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANM.ANM_ANCLowRiskActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANM.ANM_CatalogueActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANM.ANM_HRWomanActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANM.ANM_LoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANM.ANM_NavDrawerActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANM.ANM_PNCHighRiskActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANM.ANM_PNCLowRiskActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ANM.ANM_VaccinationActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RolesActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+<!--    com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--    androidx.appcompat.widget.Toolbar-->
+<!--    androidx.constraintlayout.widget.ConstraintLayout-->
+<!--    androidx.coordinatorlayout.widget.CoordinatorLayout-->
+<!--    com.google.android.material.appbar.AppBarLayout-->
+<!--    androidx.drawerlayout.widget.DrawerLayout-->
+<!--    com.google.android.material.navigation.NavigationView-->

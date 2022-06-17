@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PregnantLadyTabs.BabyTabs.BabyImmunisationActivity">
+
+
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:text="Birth"
+            android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="42dp"
+        android:text="BCG"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/cb1"
+        android:layout_marginStart="127dp"
+        android:text="OPV-0"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="127dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox56"
+        android:layout_alignTop="@+id/cb1"
+        android:text="Hepatitis B-0"
+        android:layout_alignLeft="@+id/checkBox56" />
+
+    <CheckBox
+        android:id="@+id/checkBox47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cb1"
+        android:layout_alignTop="@+id/checkBox48"
+        android:text="OPV-1"
+        android:layout_alignLeft="@+id/cb1" />
+
+    <CheckBox
+        android:id="@+id/checkBox48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox45"
+        android:layout_marginTop="129dp"
+        android:text="DPT-1"
+        android:layout_alignLeft="@+id/checkBox45" />
+
+    <CheckBox
+        android:id="@+id/checkBox49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="82dp"
+        android:text="Measles"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="82dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/cb1"
+        android:layout_marginTop="225dp"
+        android:text="OPV-2"
+        android:layout_alignLeft="@+id/cb1" />
+
+    <CheckBox
+        android:id="@+id/checkBox51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView44"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="232dp"
+        android:text="DPT-2"
+        android:layout_alignRight="@+id/textView44" />
+
+    <CheckBox
+        android:id="@+id/checkBox52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/checkBox51"
+        android:layout_alignStart="@+id/checkBox55"
+        android:text="Hepatitis B-2"
+        android:layout_alignLeft="@+id/checkBox55" />
+
+    <CheckBox
+        android:id="@+id/checkBox53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/cb1"
+        android:layout_marginBottom="220dp"
+        android:text="OPV-3"
+        android:layout_alignLeft="@+id/cb1" />
+
+    <CheckBox
+        android:id="@+id/checkBox54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox49"
+        android:layout_toStartOf="@+id/checkBox57"
+        android:text="Vitamin A"
+        android:layout_toLeftOf="@+id/checkBox57" />
+
+    <CheckBox
+        android:id="@+id/checkBox55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox53"
+        android:layout_alignStart="@+id/checkBox46"
+        android:text="Hepatitis B-3"
+        android:layout_alignLeft="@+id/checkBox46" />
+
+    <CheckBox
+        android:id="@+id/checkBox56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/checkBox47"
+        android:layout_marginEnd="17dp"
+        android:text="Hepatitis B-1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox55"
+        android:layout_centerHorizontal="true"
+        android:text="DPT-3" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="84dp"
+        android:text="1 1/2 @string/_1_1_2_months"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="181dp"
+        android:text="@string/_2_1_2_months"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="3 1/2 months"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="157dp"
+        android:text="9 months"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RolesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RolesActivity">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="500dp"
+            app:srcCompat="@drawable/home" />
+
+        <Button
+            android:id="@+id/pregnant_lady_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView10"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="-181dp"
+            android:width="130dp"
+            android:background="@drawable/orange_gradient"
+            android:text="@string/pregnant_lady" />
+
+        <Button
+            android:id="@+id/asha_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView10"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="-255dp"
+            android:width="130dp"
+            android:background="@drawable/yellow_gradient"
+            android:text="@string/asha_aww" />
+
+        <Button
+            android:id="@+id/anm_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView10"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="137dp"
+            android:layout_marginBottom="-332dp"
+            android:width="130dp"
+            android:background="@drawable/blue_gradient"
+            android:text="@string/anm" />
+
+        <Button
+            android:id="@+id/doctor_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView10"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="137dp"
+            android:layout_marginBottom="-410dp"
+            android:width="130dp"
+            android:background="@drawable/green_gradient"
+            android:text="@string/doctor" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView10"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="-82dp"
+            android:text="@string/who_are_you"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="414dp"
+            app:srcCompat="@drawable/ic_pl_person_details_24dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

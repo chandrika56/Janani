@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.janani.ASHA.ASHA_FamilyPlanningActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/family_planning"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/name_of_the_couple"
+        android:textSize="20dp"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:text="@string/no_of_children"
+        android:textSize="20dp"
+        android:textColor="@color/green"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="47dp"
+        android:text="@string/_1_mr_and_mrs_sharma_n_n_2_mr_and_mrs_sehgal_n_n_3_mr_and_mrs_rathod"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="@string/_3_n_n4_n_n3"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="62dp"
+        android:layout_toStartOf="@+id/textView4"
+        android:text="@string/next_counselling_date"
+        android:textSize="18dp"
+        android:textColor="@color/green"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="18dp"
+        android:text="@string/check" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginEnd="33dp"
+        android:layout_marginTop="14dp"
+
+        android:textSize="18dp"/>
+
+
+</RelativeLayout>

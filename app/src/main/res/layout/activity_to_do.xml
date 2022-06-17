@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PregnantLadyTabs.ToDoActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/orange_gradient"
+        android:text="@string/_3rd_trimester" />
+
+    <Button
+        android:id="@+id/button200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="138dp"
+        android:background="@drawable/blue_gradient"
+        android:text="@string/_1st_trimester" />
+
+    <Button
+        android:id="@+id/button300"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="339dp"
+        android:background="@drawable/green_gradient"
+        android:text="@string/_2nd_trimester" />
+</RelativeLayout>
