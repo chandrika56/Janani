@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+
+        <item
+
+            android:title="@string/communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_highrisk"
+                    android:icon="@drawable/ic_action_name"
+                    android:title="@string/high_risk" />
+                <item
+                    android:id="@+id/nav_lowrisk"
+                    android:icon="@drawable/ic_action_name"
+                    android:title="@string/low_risk" />
+            </menu>
+        </item>
+        <item android:title="@string/post_natal">
+            <menu>
+                <item
+                    android:id="@+id/nav_postnatal"
+                    android:icon="@drawable/ic_flower"
+                    android:title="@string/high_risk" />
+                <item
+                    android:id="@+id/nav_postnatal2"
+                    android:icon="@drawable/ic_flower"
+                    android:title="@string/low_risk" />
+            </menu>
+        </item>
+
+
+        <item
+            android:id="@+id/nav_vaccination"
+            android:icon="@drawable/ic_vaccine"
+            android:title="@string/vaccination" />
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@drawable/ic_family"
+            android:title="@string/family_planning" />
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PregnantLadyTabs.BabyTabs.BabyImmunisationActivity">
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="669dp"
+        android:text="Birth"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="81dp"
+        android:text="BCG" />
+
+    <CheckBox
+        android:id="@+id/checkBox45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/cb1"
+        android:layout_marginStart="127dp"
+        android:text="OPV-0"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="127dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox56"
+        android:layout_alignTop="@+id/cb1"
+        android:text="Hepatitis B-0"
+        android:layout_alignLeft="@+id/checkBox56" />
+
+    <CheckBox
+        android:id="@+id/checkBox47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cb1"
+        android:layout_alignTop="@+id/checkBox48"
+        android:text="OPV-1"
+        android:layout_alignLeft="@+id/cb1" />
+
+    <CheckBox
+        android:id="@+id/checkBox48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox45"
+        android:layout_alignLeft="@+id/checkBox45"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="191dp"
+        android:text="DPT-1" />
+
+    <CheckBox
+        android:id="@+id/checkBox49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:layout_marginBottom="84dp"
+        android:text="Measles" />
+
+    <CheckBox
+        android:id="@+id/checkBox50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/cb1"
+        android:layout_alignLeft="@+id/cb1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="325dp"
+        android:text="OPV-2" />
+
+    <CheckBox
+        android:id="@+id/checkBox51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView44"
+        android:layout_alignRight="@+id/textView44"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:text="DPT-2" />
+
+    <CheckBox
+        android:id="@+id/checkBox52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox55"
+        android:layout_alignLeft="@+id/checkBox55"
+        android:layout_alignBottom="@+id/checkBox51"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginBottom="0dp"
+        android:text="Hepatitis B-2" />
+
+    <CheckBox
+        android:id="@+id/checkBox53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/cb1"
+        android:layout_marginBottom="220dp"
+        android:text="OPV-3"
+        android:layout_alignLeft="@+id/cb1" />
+
+    <CheckBox
+        android:id="@+id/checkBox54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox49"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_toStartOf="@+id/checkBox57"
+        android:layout_toLeftOf="@+id/checkBox57"
+        android:text="Vitamin A" />
+
+    <CheckBox
+        android:id="@+id/checkBox55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox53"
+        android:layout_alignStart="@+id/checkBox46"
+        android:text="Hepatitis B-3"
+        android:layout_alignLeft="@+id/checkBox46" />
+
+    <CheckBox
+        android:id="@+id/checkBox56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/checkBox47"
+        android:layout_marginEnd="17dp"
+        android:text="Hepatitis B-1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox55"
+        android:layout_centerHorizontal="true"
+        android:text="DPT-3" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="134dp"
+        android:text="1 1/2 @string/_1_1_2_months"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="255dp"
+        android:text="@string/_2_1_2_months"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginBottom="300dp"
+        android:text="3 1/2 months"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="174dp"
+        android:layout_marginBottom="151dp"
+        android:text="9 months"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/green_gradient"
+        android:text="@string/save" />
+
+
+</RelativeLayout>
+
+

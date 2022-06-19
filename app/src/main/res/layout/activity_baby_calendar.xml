@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PregnantLadyTabs.BabyTabs.BabyCalendarActivity">
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="366dp"
+        android:layout_height="475dp"
+        android:firstDayOfWeek="2"
+        android:maxDate="01/01/2019"
+        android:minDate="01/01/2017"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
